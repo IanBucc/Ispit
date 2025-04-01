@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: lightcyan;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            position: relative;
+            background-image: url("");
+            background-position: center center;
+            background-size: cover;
+            height: 600px;
+        }
+
+        .nav-link:hover {
+            background-color: black !important;
+            color: white !important;
+        }
+
+        .nav-link {
+            border: lightgray solid 5px;
+            border-radius: 2px;
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar-toggler {
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+
+        .navbar .navbar-nav {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navbar .nav-item {
+            margin-left: 15px;
+        }
+
+        .navbar img {
+            width: auto;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            border: #333333 5px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white"
+            style="background-color: black !important; z-index: 2; padding-left: 0; padding-right: 0; color: black;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link3" aria-current="page" href="#">
+                                <a href="index.html"><img src="apartoslogo.png" alt="" style="width: 100px;"></a>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                style="border: lightgray solid 5px; border-radius: 2px; background-color: white; color: black;"
+                                href="Ian_Bucic_info.html">Informacije</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                style="border: lightgray solid 5px; border-radius: 2px; background-color: white; color: black;"
+                                href="Ian_Bucic_info.html#Kontakt">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                style="border: lightgray solid 5px; border-radius: 2px; background-color: white; color: black;"
+                                href="Ian_Bucic_Slike.html#Video">Videozapis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                style="border: lightgray solid 5px; border-radius: 2px; background-color: white; color: black;"
+                                href="Ian_Bucic_Slike.html#Slike">Slike</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                style="border: lightgray solid 5px; border-radius: 2px; background-color: white; color: black;"
+                                href="Ian_Bucic_Cijenik.html">Cijenik</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1 class="mb-3" style="color: white; background-color: darkgray;">
+                <img src="apartoslogo.png" class="img-fluid" alt="Logo">
+            </h1>
+            <a data-mdb-ripple-init class="btn btn-primary" href="index.html" role="button"
+                style="background-color: #8c8c8c; border: #8c8c8c;">Natrag</a>
+        </div>
+    </header>
+    <h2 style="text-align: center; text-decoration: underline; color: black;">Često postavljena pitanja</h2>
+    <div class="container" style="border: solid 5px darkgreen;">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h4 style="text-align: left; text-decoration: underline;">Kako iznajmiti apartman na Apartosu?</h4>
+                <p>Lagano! Posjetite našu web stranicu, odaberite apartman koji vas zanima i nazovite nas za utvrđivanje dolaska i dostupnosti!</p>
+                <h4 style="text-align: left; text-decoration: underline;">Postoji mogućnost povrate novca ako ne
+                    stignemo do iznajmljenog apartmana?</h4>
+                <p>Da, postoji mogućnost povratka novca, ali uvjeti za to ovise o politici otkazivanja koju ima Apartos.
+                    Preporučujemo da se upoznate s uvjetima otkazivanja prilikom rezervacije, jer oni ovise
+                    o tipu rezervacije i vremenskom razdoblju prije dolaska.</p>
+                <h6 style="text-align: left ;">Moguće opcije uključuju:</h6>
+                <p><h6>Povrat novca u cijelosti:</h6> Ako otkažete rezervaciju unutar određenog vremenskog okvira (npr. 7 ili 14
+                    dana prije dolaska), možete ostvariti potpuni povrat novca.</p>
+
+                   <p><h6>Djelomični povrat novca:</h6> Ako otkažete nakon isteka roka za potpuni povrat novca, možda ćete moći
+                    dobiti djelomični povrat ovisno o uvjetima ugovora.</p>
+
+                    <p><h6>Ne povrat novca:</h6> U slučaju da otkažete rezervaciju neposredno prije dolaska (npr. manje od 24 sata
+                    prije), povrat novca može biti onemogućen.</p>
+                    <h4 style="text-align: left; text-decoration: underline;">Dali je parking dostupan i koliko se naplaćuje ako je?</h4>
+                    <p>Parking je dostupan u svim apartmanima Apartosa i ulazi u cijenu noćenja!</p>
+                    <h4 style="text-align: left; text-decoration: underline;"> Kako mogu potvrditi ili izmijeniti svoju rezervaciju?</h4>
+                    <p>U slučaju promjene rezervacije nazovite nas i obavjestite o promjeni!</p>
+                    <h4 style="text-align: left; text-decoration: underline;">Nudi li Apartos usluge vožnje od/do zračnih usluga?</h4>
+                    <p>Ne!</p>
+                    <h4 style="text-align: left; text-decoration: underline;">Nudi li Apartos kasno ili rano sezonske popuste?</h4>
+                    <p>Apartos ne nudi nikakve popuste!</p>
+            </div>
+        </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
